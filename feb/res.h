@@ -3,7 +3,13 @@
 
 class Algorythm {
     private:
-        std::vector<int> merge(std::vector<int> left, std::vector<int> right);
+        std::vector<double> merge(std::vector<double> left, std::vector<double> right);
+
+        // User-in
+        double testing = true;
+        
     public:
-        std::vector<int> mergeSort(std::vector<int> arr);
+        std::vector<double> mergeSort(std::vector<double> arr);
+
+        void userTest();
 };
