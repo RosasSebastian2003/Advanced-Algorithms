@@ -1,12 +1,9 @@
-#pragma once 
-#include <stdio.h>
+#include <iostream>
+#include <vector>
 
-class Algorythms {
+class Algorythm {
+    private:
+        std::vector<int> merge(std::vector<int> left, std::vector<int> right);
     public:
-
-    int fibRecursive(int n);
-
-    void fibDynamic(int n);
-
-    // Merge sort n shi
+        std::vector<int> mergeSort(std::vector<int> arr);
 };
